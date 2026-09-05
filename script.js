@@ -178,7 +178,7 @@ passwordForm.addEventListener(
         ) {
 
             feedback.textContent =
-                "Okay... you found it. 👀✨";
+                "Okay... mil gaya. 👀✨";
 
             unlockButton.innerHTML =
                 "Welcome, Madam Ji 🌷";
@@ -610,7 +610,7 @@ const noMessages = [
     "Okie... ab main personally le raha hoon. 😂",
     "Lagta hai button bhi nervous ho gaya... 👀",
     "Theek hai theek hai... last chance? 🤭",
-    "Okieeee.., aap jeet gayi. 😭😂",
+    "Okieeee, aap jeet gayi. 😭😂",
     "Okieeeee... samajh gaya, aaj meri haar hui. 😭😂❤️"
 ];
 
@@ -652,7 +652,7 @@ noBtn.addEventListener(
         if (noClicks >= 7) {
 
            choiceMessage.textContent =
-                    "HAHA okiee......., message samajh gaya. 😂❤️";
+                    "HAHA okiee........ message samajh gaya. 😂❤️";
             noBtn.textContent =
                 "Okay 😭";
 
