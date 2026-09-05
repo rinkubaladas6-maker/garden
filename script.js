@@ -403,45 +403,49 @@ function growFlowers() {
 
 const flowerMessages = [
     {
-        title: "The Beginning 🌷",
+        title: "Shuruaat 🌷",
         message:
-            "Okay... let's start with something harmless. 😇"
+            "Okay... chalo kuch harmless se start karte hain. 😇"
     },
 
     {
-        title: "The Tease 👀",
+        title: "Thodi Si Masti 👀",
         message:
-            "You know you're kinda trouble, right? 😂"
+            "Waise aap thodi si troublemaker ho... pata hai na? 😂"
     },
 
     {
-        title: "The Little Thing 🌸",
+        title: "Ek Chhoti Si Baat 🌸",
         message:
-            "I don't know why, but talking to you is always a little more fun than it should be. 👀"
+            "Honestly, abhi toh humne properly baat bhi nahi ki... phir bhi pata nahi kyun, aap interesting lagti ho. 👀🤭"
     },
 
     {
-        title: "Playful Flirt 😌",
+        title: "Kuch Toh Suspicious Hai 😌",
         message:
-            "This is getting suspicious... I think I might actually like seeing you. 🙂"
+            "Hmm... ye thoda suspicious ho raha hai. Pata nahi kyun, but laga aapke liye kuch special toh banta hai. 👀❤️"
     },
 
     {
-        title: "The Secret 🤭",
+        title: "Ek Chhota Sa Secret 🤭",
         message:
-            "You weren't supposed to find this one..."
+            "Ye wala aapko nahi milna chahiye tha... 👀🤭"
     },
 
     {
-        title: "Almost Reveal 👀",
+        title: "Bas Thoda Aur 👀",
         message:
-            "Okay... you've come this far. I think you already know where this is going..."
+            "Okay... ab aap itna aage aa hi gayi ho. I think aapko already pata chal gaya hai ki ye kahan ja raha hai... 🤭❤️"
     },
 
     {
         title: "Final Reveal ❤️",
         message:
-            "Okay, no more hiding behind flowers.<br><br>I really like you. ❤️<br><br>I just wanted to tell you in a way that felt a little more... me. No pressure. I just wanted you to know. 🙂"
+            `Okay, ab flowers ke peeche hide nahi karunga.<br><br>
+            Mujhe aap genuinely pasand ho. ❤️<br><br>
+            Bas aapko directly bolne ke bajay thoda apne tareeke se batana tha...
+            thoda playful, thoda dramatic. 😂🌷<br><br>
+            No pressure. Bas chahta tha ki aapko pata ho. 🙂❤️`
     }
 ];
 /* =========================================
@@ -600,13 +604,14 @@ if (butterflyEgg) {
 let noClicks = 0;
 
 const noMessages = [
-    "Are you sure? 👀",
+    "Pakka? 👀",
     "Accha... ek baar aur soch lo 😂",
-    "Madam ji, itni jaldi NO? 😭",
-    "Okay... I'm taking that personally now. 😂",
-    "The button is getting nervous... 👀",
-    "Fine fine... last chance? 🤭",
-    "Okay, you win. 😭😂"
+    "Madam ji, itni jaldi NAHI? 😭",
+    "Okie... ab main personally le raha hoon. 😂",
+    "Lagta hai button bhi nervous ho gaya... 👀",
+    "Theek hai theek hai... last chance? 🤭",
+    "Okieeee.., aap jeet gayi. 😭😂",
+    "Okieeeee... samajh gaya, aaj meri haar hui. 😭😂❤️"
 ];
 
 
@@ -646,9 +651,8 @@ noBtn.addEventListener(
 
         if (noClicks >= 7) {
 
-            choiceMessage.textContent =
-                "HAHA okay, I got the message 😂❤️";
-
+           choiceMessage.textContent =
+                    "HAHA okiee......., message samajh gaya. 😂❤️";
             noBtn.textContent =
                 "Okay 😭";
 
