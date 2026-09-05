@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="A tiny little garden made with a little too much effort."
+    >
+
+    <title>A Little Something 🌷</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         PASSWORD SCREEN
+    ========================================== -->
+
+    <main id="passwordScreen" class="screen active">
+
+        <div class="sky"></div>
+
+        <div id="stars"></div>
+
+        <div class="moon">
+            <div class="crater crater-1"></div>
+            <div class="crater crater-2"></div>
+            <div class="crater crater-3"></div>
+        </div>
+
+        <div id="fireflies"></div>
+
+
+        <!-- PASSWORD CARD -->
+
+        <section class="password-card" id="passwordCard">
+
+            <div class="lock">
+                🔐
+            </div>
+
+            <p class="eyebrow">
+                A LITTLE SOMETHING
+            </p>
+
+            <h1>
+                Just for you 🌷
+            </h1>
+
+            <p class="subtitle">
+                This tiny garden is private.
+                <br>
+                You'll have to unlock it first. 👀
+            </p>
+
+
+            <!-- PASSWORD -->
+
+            <form id="passwordForm">
+
+                <label for="passwordInput">
+                    Enter the secret password
+                </label>
+
+                <input
+                    type="text"
+                    id="passwordInput"
+                    placeholder="Your guess..."
+                    autocomplete="off"
+                    maxlength="30"
+                >
+
+                <button
+                    type="submit"
+                    id="unlockButton"
+                >
+                    <span id="unlockText">
+                        Unlock
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+                </button>
+
+            </form>
+
+
+            <!-- FEEDBACK -->
+
+            <div
+                class="feedback"
+                id="feedback"
+            ></div>
+
+
+            <!-- HINT -->
+
+            <div class="hint-area">
+
+                <button
+                    type="button"
+                    id="hintButton"
+                >
+                    Need a tiny hint? 👀
+                </button>
+
+                <div
+                    class="hint-box"
+                    id="hintBox"
+                >
+                    <strong>
+                        ✦ Tiny hint
+                    </strong>
+
+                    <p>
+                        Think of one word that describes
+                        your habit of causing a little trouble. 👀😂
+
+
+                    </p>
+                        
+                    
+                </div>
+
+            </div>
+
+
+            <!-- ATTEMPTS -->
+
+            <div
+                class="attempts"
+                id="attempts"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
+            <p class="tiny-footer">
+                made with a little too much effort 💻🌷
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         GARDEN SCREEN
+    ========================================== -->
+
+    <main
+        id="gardenScreen"
+        class="screen garden-screen"
+    >
+
+        <div class="garden-title">
+
+            <div class="garden-emoji">
+                🌱
+            </div>
+
+            <h2>
+                A little garden,
+                just for you
+            </h2>
+
+            <p>
+                I planted something here...
+                <br>
+                but you'll have to help it grow. 👀
+            </p>
+
+            <button id="plantBtn">
+                Plant the seed 🌱
+            </button>
+
+        </div>
+
+
+        <div id="gardenArea">
+
+            <div id="seedStage">
+
+                <div class="seed">
+                    🌱
+                </div>
+                
+
+                <p>
+                    Something is waiting to bloom...
+                </p>
+
+            </div>
+        
+
+                <div id="butterflyEgg" class="butterfly-egg">
+    🦋
+                </div>
+
+
+
+                        <div id="flowersContainer"></div>
+
+            <div id="messageBox">
+
+                <div id="flowerTitle"></div>
+
+                <p id="flowerMessage"></p>
+
+                <button id="nextFlowerBtn">
+                    Continue 🌷
+                </button>
+
+            </div>
+            <div id="choiceBox">
+                <p id="scrollHint">
+                ↓ Just a little scroll... 👀❤️
+        </p>
+
+            <h2>So... what do you think? 👀❤️</h2>
+
+            <p id="choiceMessage">
+                Be honest... 😌
+            
+    </p>
+
+    <div class="choice-buttons">
+
+        <button id="yesBtn">
+            YES ❤️
+        </button>
+
+        <button id="noBtn">
+            NO 😭
+        </button>
+
+    </div>
+            <div id="yesReveal">
+
+    <p id="dramaticLine1">Wait... 👀</p>
+
+    <p id="dramaticLine2">
+        You actually said YES...? 😳❤️
+    </p>
+
+    <p id="dramaticLine3">
+        I KNEW IT. 😌❤️
+    </p>
+
+    <p id="dramaticLine4">
+        Mujhe pehle se pata tha...
+        tum yahi choose karogi. 🤭❤️
+    </p>
+
+    <p id="dramaticLine5">
+        So I guess... this little garden worked. 🌷❤️
+    </p>
+
+
+    <!-- FINAL ENDING -->
+
+    <div id="finalEnding">
+
+        <h2>🌷 One last thing... 👀</h2>
+
+        <p>
+            Okay... maybe I got a <i>little</i> carried away. 😂
+        </p>
+
+        <p>
+            I could've just told you how I feel,
+            but apparently my brain thought—
+        </p>
+
+        <p class="funnyLine">
+            “Nah... let's build an entire garden.” 🌷😭
+        </p>
+
+        <p>
+            So here we are.
+        </p>
+
+        <p>
+            A few flowers,<br>
+            a little teasing,<br>
+            way too much effort...<br>
+            and one tiny confession hidden somewhere in between. ❤️
+        </p>
+
+        <p>
+            Maybe it was silly.<br>
+            Maybe it was a little dramatic.
+        </p>
+
+        <p>
+            But hey... <b>it was fun making it for you.</b> 🦋
+        </p>
+
+        <p class="softLine">
+            And if this made you smile even for a moment...
+            <br>
+            <b>then I guess it was worth it.</b> 🤭❤️
+        </p>
+
+        <p class="lastLine">
+            Okay... I think I've said enough for today. 🤭🌷
+        </p>
+
+        <p class="leaveLine">
+            You can leave the garden now... 🦋
+            <br>
+            <span>but I hope you take a little smile with you. ❤️</span>
+        </p>
+
+        <div class="madeForYou">
+            — Made just for you 🌷
+        </div>
+<div id="secretSurprise">
+
+    <p id="secretWait">
+        Wait... 👀
+    </p>
+
+    <div class="shooting-star"></div>
+
+    <p id="secretTwist">
+        You thought that was the end? 😳
+    </p>
+
+    <p id="secretEnd">
+        Okay... NOW it's the end. 😂❤️
+    </p>
+
+</div>
+    </div>
+
+</div>
+
+    </div>
+</div>
+
+        </div>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
